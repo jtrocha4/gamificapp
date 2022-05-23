@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/jtrocha4/gamificapp/static/css/main.dbaabf2d.css",
+    "main.js": "/jtrocha4/gamificapp/static/js/main.ee4bc30b.js",
+    "static/media/erotique-text-regular.otf": "/jtrocha4/gamificapp/static/media/erotique-text-regular.0f4f5b5508674f176447.otf",
+    "static/media/object-sans-heavy-slanted.otf": "/jtrocha4/gamificapp/static/media/object-sans-heavy-slanted.805d101fc4a3a064bedc.otf",
+    "index.html": "/jtrocha4/gamificapp/index.html",
+    "main.dbaabf2d.css.map": "/jtrocha4/gamificapp/static/css/main.dbaabf2d.css.map",
+    "main.ee4bc30b.js.map": "/jtrocha4/gamificapp/static/js/main.ee4bc30b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbaabf2d.css",
+    "static/js/main.ee4bc30b.js"
+  ]
+}
