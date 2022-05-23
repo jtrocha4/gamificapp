@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jtrocha4/gamificapp/static/css/main.dbaabf2d.css",
-    "main.js": "/jtrocha4/gamificapp/static/js/main.ee4bc30b.js",
-    "static/media/erotique-text-regular.otf": "/jtrocha4/gamificapp/static/media/erotique-text-regular.0f4f5b5508674f176447.otf",
-    "static/media/object-sans-heavy-slanted.otf": "/jtrocha4/gamificapp/static/media/object-sans-heavy-slanted.805d101fc4a3a064bedc.otf",
-    "index.html": "/jtrocha4/gamificapp/index.html",
-    "main.dbaabf2d.css.map": "/jtrocha4/gamificapp/static/css/main.dbaabf2d.css.map",
-    "main.ee4bc30b.js.map": "/jtrocha4/gamificapp/static/js/main.ee4bc30b.js.map"
+    "main.css": "/gamificapp/static/css/main.b0e2b02e.css",
+    "main.js": "/gamificapp/static/js/main.4d71e4a6.js",
+    "static/media/erotique-text-regular.otf": "/gamificapp/static/media/erotique-text-regular.0f4f5b5508674f176447.otf",
+    "static/media/object-sans-heavy-slanted.otf": "/gamificapp/static/media/object-sans-heavy-slanted.805d101fc4a3a064bedc.otf",
+    "index.html": "/gamificapp/index.html",
+    "main.b0e2b02e.css.map": "/gamificapp/static/css/main.b0e2b02e.css.map",
+    "main.4d71e4a6.js.map": "/gamificapp/static/js/main.4d71e4a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbaabf2d.css",
-    "static/js/main.ee4bc30b.js"
+    "static/css/main.b0e2b02e.css",
+    "static/js/main.4d71e4a6.js"
   ]
 }
