@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Object Sans';
+  src: url('./estilos/fuentes/object-sans-heavy-slanted.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Erotique Text';
+  src: url('./estilos/fuentes/erotique-text-regular.otf') format('truetype');
+}
+
+body{
+  background-color: #f6f5f0;
+}

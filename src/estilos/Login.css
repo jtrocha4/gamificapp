@@ -1,0 +1,31 @@
+#col-formulario {
+    background-color: #fea1bd;
+    padding: 5%;
+    margin-top: 11%;
+}
+
+#col-informacion {
+    background-color: #ffd66c;
+    padding: 5%;
+    margin-top: 11%;
+}
+
+@font-face {
+    font-family: 'Object Sans';
+    src: url('../estilos/fuentes/object-sans-heavy-slanted.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Erotique Text';
+    src: url('../estilos/fuentes/erotique-text-regular.otf') format('truetype');
+}
+
+h1 {
+    font-family: 'Object Sans';
+}
+
+p {
+    font-family: 'erotique text';
+    font-size: large;
+}
+
