@@ -35,16 +35,16 @@ function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
-                    <div className='collapse navbar-collapse justify-content-md-end' id='firstNavbar'>
+                    <div className='collapse navbar-collapse justify-content-md-center' id='firstNavbar'>
                         <ul className='navbar-nav'>
                             <Link to='/actividades' className='nav-link'><li className='nav-item'>Actividades</li></Link>
                             <Link to='/tienda' className='nav-link'><li className='nav-item'>Tienda</li></Link>
                         </ul>
                     </div>
 
-                    <div className='collapse navbar-collapse justify-content-md-end ' id='firstNavbar'>
-                        {/* <button className='btn btn-outline-dark me-2 ' >{500} <i className='bi bi-piggy-bank'></i></button> */}
-                        <button className='btn btn-outline-dark me-2 ' onClick={cerrarsesion}><i className="bi bi-box-arrow-right"></i></button>
+                    <div className='justify-content-md-end ' id='firstNavbar'>
+                        <button className='btn btn-outline-dark me-2' title='$ECoins disponibles'>{500} <i className='bi bi-piggy-bank'></i></button>
+                        <button className='btn btn-outline-dark me-2' title='Cerrar sesion' onClick={cerrarsesion}><i className="bi bi-box-arrow-right"></i></button>
                     </div>
 
                 </div>

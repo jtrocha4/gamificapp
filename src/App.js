@@ -24,7 +24,7 @@ function App() {
   auth.onAuthStateChanged((usuario) => {
     if (usuario) {
       setUser(usuario)
-
+      // console.log(usuario)
     } else {
       setUser(null)
     }
@@ -38,8 +38,9 @@ function App() {
             <Navbar></Navbar>
             <Routes>
               <Route path='/' exact element={<Inicio></Inicio>}></Route>
+              <Route path='/gamificapp' exact element={<Inicio></Inicio>}></Route>
               <Route path='/tienda' exact element={<Tienda></Tienda>}></Route>
-              <Route path='/actividades' exact element={<Actividades></Actividades>}></Route>
+              <Route path='/actividades' exact element={<Actividades user={user}></Actividades>}></Route>
             </Routes>
           </Router>
           : <Login></Login>
