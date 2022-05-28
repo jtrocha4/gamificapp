@@ -13,6 +13,21 @@ function Inicio() {
             {/* {
                 user.email==='usuario@gmail.com' ? <AdminVista></AdminVista> : <UserVista></UserVista>
             } */}
+            
+
+            <div className="row">
+                <div className="col">
+                    <h3>Insignias</h3>
+                    
+                </div>
+                <div className="col">
+
+                </div>
+                <div className="col">
+                    <h3></h3>
+                </div>
+            </div>
+
        </div>
     )
 }

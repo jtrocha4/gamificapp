@@ -98,6 +98,8 @@ function Login() {
                 <div className='col-10 col-sm-10 col-md-10 col-xl-5' id='col-informacion'>
                     <h1>GamificApp</h1>
                     <p>Gamificapp es una plataforma gratuita creada para generar motivacion y compromiso por parte de los estudiantes en sus asignaturas</p>
+
+                    <small className="text-muted">By: Bugs Company</small>
                 </div>
 
                 <div className='col-10 col-sm-10 col-md-10 col-xl-5' id='col-formulario'>

@@ -39,7 +39,7 @@ function App() {
             <Routes>
               <Route path='/' exact element={<Inicio></Inicio>}></Route>
               <Route path='/gamificapp' exact element={<Inicio></Inicio>}></Route>
-              <Route path='/tienda' exact element={<Tienda></Tienda>}></Route>
+              <Route path='/tienda' exact element={<Tienda user={user}></Tienda>}></Route>
               <Route path='/actividades' exact element={<Actividades user={user}></Actividades>}></Route>
             </Routes>
           </Router>

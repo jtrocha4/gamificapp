@@ -168,6 +168,8 @@ function AdminVista() {
                 <button className='btn btn-success btn-sm ms-1' title='Actualizar' data-bs-toggle='modal' data-bs-target='#AbrirModal' onClick={() => editar(elemento)}><i className='bi bi-pencil'></i></button>
               </li>
             </ul>
+
+            
           ))
         }
       </div>
@@ -203,7 +205,7 @@ function AdminVista() {
                 </div>
                 <div className='mb-3'>
                   <label htmlFor='message-text' className='col-form-label'>$ECoins:</label>
-                  <input className='form-control' id='message-text' onChange={(e) => { setSecoins(e.target.value) }} value={secoins} />
+                  <input type='number' className='form-control' id='message-text' onChange={(e) => { setSecoins(e.target.value) }} value={secoins} />
                 </div>
                 <div className='modal-footer'>
                   <button type='button' className='btn btn-secondary' data-bs-dismiss='modal' onClick={() => cancelarEdicion()} >Cancelar</button>
